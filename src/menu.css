@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.menu>div.title{
+    font-family: "Playwrite HU";
+    font-weight: 600;
+    font-size: 80px;
+    display: flex;
+    padding: 16px;
+    color: #0284c7;
+    margin: 32px;
+    text-shadow: 2px 5px 5px #ffffff;
+}
+
+.menu>div.description{
+    width: 40vw;
+    background-color: #0284c7;
+    padding: 32px;
+    border-radius: 32px;
+    color: whitesmoke;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    box-shadow: 0px 20px 10px -10px #90a5aa;
+}
+
+.menu>div.description>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul>li{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+div.description>ul.foodlist{
+    font-weight: 600;
+}
+
+.menu>img{
+    width: 400px;
+}
+
